@@ -1,0 +1,77 @@
+{
+  "name": "image-audit",
+  "version": "1.0.0",
+  "description": "Scan image audit in your project with a visual report. Vite & Webpack plugin + CLI.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Your Name <you@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyran/image-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cyran/image-audit/issues"
+  },
+  "homepage": "https://github.com/Cyran/image-audit#readme",
+  "keywords": [
+    "vite-plugin",
+    "webpack-plugin",
+    "image-audit",
+    "unused",
+    "images",
+    "assets",
+    "bundle",
+    "optimizer"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./vite": {
+      "types": "./dist/vite.d.ts",
+      "import": "./dist/vite.js"
+    },
+    "./webpack": {
+      "types": "./dist/webpack.d.ts",
+      "import": "./dist/webpack.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "image-audit": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vite": ">=4.0.0",
+    "webpack": ">=5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vite": {
+      "optional": true
+    },
+    "webpack": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2",
+    "webpack": "^5.98.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
