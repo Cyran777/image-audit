@@ -7,12 +7,12 @@
   "author": "Your Name <you@example.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cyran/image-audit.git"
+    "url": "git+https://github.com/Cyran777/image-audit.git"
   },
   "bugs": {
-    "url": "https://github.com/Cyran/image-audit/issues"
+    "url": "https://github.com/Cyran777/image-audit/issues"
   },
-  "homepage": "https://github.com/Cyran/image-audit#readme",
+  "homepage": "https://github.com/Cyran777/image-audit#readme",
   "keywords": [
     "vite-plugin",
     "webpack-plugin",
