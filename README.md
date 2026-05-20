@@ -100,29 +100,6 @@ console.log(result.imageAudit)
 await startReportServer({ port: 8899 })
 ```
 
-## 发布到 GitHub / npm
-
-1. 将 `package.json` 中的 `YOUR_USERNAME` 替换为你的 GitHub 用户名
-2. 初始化仓库并推送：
-
-```bash
-git init
-git add .
-git commit -m "feat: initial release of image-audit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/image-audit.git
-git push -u origin main
-```
-
-3. 登录 npm 并发布：
-
-```bash
-npm login
-npm publish
-```
-
-若包名 `image-audit` 已被占用，可在 `package.json` 中修改为 `@your-scope/image-audit` 等可用名称。
-
 ## License
 
 [MIT](./LICENSE)

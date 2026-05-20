@@ -1,6 +1,6 @@
 {
   "name": "image-audit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scan image audit in your project with a visual report. Vite & Webpack plugin + CLI.",
   "type": "module",
   "license": "MIT",
