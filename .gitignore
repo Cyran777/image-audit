@@ -5,3 +5,5 @@ dist
 image-report.html
 .idea
 .vscode
+.junie
+.npmrc
