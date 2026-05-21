@@ -1,10 +1,10 @@
 {
   "name": "image-audit",
-  "version": "1.0.1",
-  "description": "Scan image audit in your project with a visual report. Vite & Webpack plugin + CLI.",
+  "version": "1.0.2",
+  "description": "Find and remove unused images in your project. Vite & Webpack plugin with visual HTML report. Supports Vue, React, and any web project.",
   "type": "module",
   "license": "MIT",
-  "author": "Your Name <you@example.com>",
+  "author": "Cyran <790707712@qq.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cyran777/image-audit.git"
@@ -14,14 +14,21 @@
   },
   "homepage": "https://github.com/Cyran777/image-audit#readme",
   "keywords": [
+    "unused-images",
+    "image-cleaner",
+    "image-audit",
     "vite-plugin",
     "webpack-plugin",
-    "image-audit",
-    "unused",
+    "image-optimizer",
+    "image-minimizer",
+    "assets-cleanup",
+    "vue",
+    "react",
     "images",
     "assets",
-    "bundle",
-    "optimizer"
+    "bundle-size",
+    "devtools",
+    "developer-tools"
   ],
   "exports": {
     ".": {
